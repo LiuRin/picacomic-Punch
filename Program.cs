@@ -18,7 +18,7 @@ namespace picacomic
         {
             if (args.Length == 0 || string.IsNullOrEmpty(args[0]))
             {
-                throw new Exception("请查看文档设置账号密码");
+                throw new Exception("请查看文档设置账号密码"); 
             }
             List<Account> Accounts = new List<Account>();
             foreach (var item in args[0].Split('|'))
