@@ -15,7 +15,7 @@ namespace picacomic
     }
     class Program
     {
-        static async System.Threading.Tasks.Task Main(string[] args) 
+        static async System.Threading.Tasks.Task Main(string[] args)
         {
             if (args.Length == 0 || string.IsNullOrEmpty(args[0]))
             {
