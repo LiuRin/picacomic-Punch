@@ -13,6 +13,7 @@ namespace picacomic
         public string username;
         public string password;
     }
+    
     class Program
     {
         static async System.Threading.Tasks.Task Main(string[] args)
